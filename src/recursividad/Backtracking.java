@@ -21,8 +21,7 @@ public class Backtracking {
 			solucion.add(i);
 			
 			// Exploro
-			backtracking(arr, objetivo, acumulado + i, 
-					solucion);
+			backtracking(arr, objetivo, acumulado + i, solucion);
 		
 			// Volver
 			solucion.remove(solucion.size() - 1);
