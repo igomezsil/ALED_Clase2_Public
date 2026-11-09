@@ -5,8 +5,7 @@ import java.util.List;
 
 public class Backtracking {
 
-	public static void backtracking(int[] arr, int objetivo, 
-			int acumulado, List<Integer> solucion) {
+	public static void backtracking(int[] arr, int objetivo, int acumulado, List<Integer> solucion) {
 		
 		if (acumulado == objetivo) {
 			System.out.println(solucion);
